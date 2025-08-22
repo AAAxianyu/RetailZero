@@ -1,0 +1,13 @@
+Name: user
+Host: 0.0.0.0
+Port: 8081
+
+Auth:
+  AccessSecret: "secret"
+    AccessExpire: 3600
+
+UserRpc:
+  Etcd:
+    Hosts:
+      - localhost:2379
+    Key: user.rpc
